@@ -1,6 +1,6 @@
 {
-  "domain": "broadlink",
-  "name": "Broadlink",
+  "domain": "broadlink JDTS",
+  "name": "Broadlink JDTS",
   "documentation": "https://www.home-assistant.io/integrations/broadlink",
   "requirements": ["broadlink==0.18.1"],
   "codeowners": ["@danielhiversen", "@felipediel", "@L-I-Am"],
@@ -18,6 +18,10 @@
     },
     {
       "macaddress": "B4430D*"
+      
+    }
+    {
+      "macaddress": "EC0BAE*"
     }
   ],
   "iot_class": "local_polling",
